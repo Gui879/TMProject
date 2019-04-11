@@ -1,0 +1,142 @@
+a,e,r,y,s, ,i,i, ,t,a,r,g,a,r,y,e,n
+0
+l,e,m, ,l,e,m,o,n,c,l,o,a,k
+0
+o,l,d, ,m,a,n
+0
+r,e,n,n,i,c,k
+0
+d,o,t,h,r,a,k,i, ,b,l,o,o,d,r,i,d,e,r, ,#,1
+0
+m,o,l,e,',s, ,t,o,w,n, ,w,h,o,r,e
+1
+m,e,l,e,s,s,a, ,t,a,r,l,y
+1
+m,e,r,c,h,a,n,t, ,c,a,p,t,a,i,n
+0
+f,r,e,y, ,s,o,l,d,i,e,r, ,#,1
+0
+m,o,r,g,a,n
+0
+h,o,w,l,a,n,d, ,r,e,e,d
+0
+k,e,g,s
+0
+r,h,a,e,n,y,s, ,t,a,r,g,a,r,y,e,n
+1
+l,y,a,n,n,a, ,s,t,a,r,k
+1
+l,a,d,y, ,c,e,r,w,y,n
+1
+l,o,b,o,d,a
+0
+k,i,n,g,s, ,l,a,n,d,i,n,g, ,r,i,o,t,e,r, ,#,1
+0
+d,o,t,h,r,a,k,i, ,b,l,o,o,d,r,i,d,e,r, ,#,2
+0
+k,i,n,g,s, ,l,a,n,d,i,n,g, ,r,i,o,t,e,r, ,#,3
+0
+d,i,c,k,o,n, ,t,a,r,l,y
+0
+s,p,i,c,e, ,k,i,n,g
+0
+c,a,t,s,p,a,w, ,a,s,s,a,s,s,i,n
+0
+b,r,o,t,h,e,r, ,r,a,y
+0
+k,h,a,l, ,f,o,r,z,h,o
+0
+u,n,i,d,e,n,t,i,f,i,e,d, ,c,e,r,w,y,n
+0
+s,o,n, ,o,f, ,t,h,e, ,h,a,r,p,y
+0
+m,a,s,t,e,r, ,t,o,r,t,u,r,e,r
+0
+k,i,n,g,',s, ,l,a,n,d,i,n,g, ,r,i,o,t,e,r, ,#,1
+0
+b,e,l,i,c,h,o, ,p,a,e,n,y,m,i,o,n
+0
+b,o,l,t,o,n, ,o,f,f,i,c,e,r
+0
+w,h,i,t,e, ,w,a,l,k,e,r
+0
+h,a,r,r,a,g
+0
+o,t,h,o,r
+0
+m,a,e,s,t,e,r, ,c,a,l,e,o,t,t,e
+0
+r,h,a,e,l,l,a, ,t,a,r,g,a,r,y,e,n
+1
+g,r,e,a,t, ,m,a,s,t,e,r, ,#,1
+0
+k,i,n,g,s, ,l,a,n,d,i,n,g, ,r,i,o,t,e,r, ,#,2
+0
+s,o,l,d,i,e,r, ,t,o,m
+0
+o,l,l,y,',s, ,m,o,t,h,e,r
+1
+h,i,g,h, ,s,e,p,t,o,n
+0
+d,y,i,n,g, ,m,a,n
+0
+k,h,a,l, ,q,o,r,r,o
+0
+k,i,n,g,',s, ,l,a,n,d,i,n,g, ,r,i,o,t,e,r, ,#,2
+0
+k,i,n,g,',s, ,l,a,n,d,i,n,g, ,b,o,a,s,t,e,r
+0
+k,a,r,s,i
+1
+t,a,l,l,a, ,t,a,r,l,y
+1
+k,h,a,l, ,r,h,a,l,k,o
+0
+k,h,a,l, ,b,r,o,z,h,o
+0
+d,e,s,p,o,n,d,e,n,t, ,m,a,n
+0
+r,i,d,d,e,l,l
+0
+k,i,n,g,',s, ,l,a,n,d,i,n,g, ,r,i,o,t,e,r, ,#,3
+0
+n,o,r,v,o,s,h,i, ,p,i,t, ,f,i,g,h,t,e,r
+0
+k,h,a,l, ,m,o,r,o
+0
+o,l,d, ,w,o,m,a,n
+1
+l,e,a,d, ,d,o,r,n,i,s,h, ,g,u,a,r,d
+0
+g,u,y,m,o,n
+0
+m,a,e,s,t,e,r, ,c,r,e,s,s,e,n
+0
+j,a,f,e,r, ,f,l,o,w,e,r,s
+0
+b,o,l,t,o,n, ,s,o,l,d,i,e,r
+0
+v,a,r,l,y
+0
+f,r,e,y, ,s,o,l,d,i,e,r, ,#,2
+0
+d,o,n,g,o, ,t,h,e, ,g,i,a,n,t
+0
+g,a,t,i,n,s
+0
+t,o,r,t,u,r,e,d, ,p,r,i,s,o,n,e,r
+0
+r,e,d, ,k,e,e,p, ,s,t,a,b,l,e,b,o,y
+0
+s,i,m,p,s,o,n
+0
+m,e,e,r,e,e,n,e,s,e, ,c,h,a,m,p,i,o,n
+0
+a,k,h,o
+0
+z,a,l,l,a
+1
+t,h,e, ,t,i,c,k,l,e,r
+0
+r,h,a,e,g,o
+0
