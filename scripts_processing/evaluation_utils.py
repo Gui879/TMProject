@@ -135,7 +135,7 @@ def rearrage_phrases(sample,episode_script, characters_pattern, corrections):
                             phrase_ix = sample_phrases.index(tagged_episodes[episode][sentence][0])
                             p = sample_sentences[phrase_ix]
                             del sample_sentences[phrase_ix]
-                            new_sample.append((new_sentence,p[1],p[2]))
+                            new_sample.append((new_sentence,p[1],p[2],phrase_ix))
                         except ValueError:
                             pass
                         # replacing the previous sentence with the new one

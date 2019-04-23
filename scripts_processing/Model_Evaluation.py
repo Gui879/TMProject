@@ -11,6 +11,7 @@ from scripts_processing import evaluation_utils,word2vec,classes
 import numpy as np
 import pandas as pd
 import re
+from sklearn.metrics import recall_score
 
 
 def flat_sentences_dict(dictionary):
@@ -114,27 +115,61 @@ Results.iloc[150:200,:].to_csv('gui_part.csv')
 
 g.to_csv('gui_part_done.csv')
 g = Results.iloc[150:200,:]
+
+
+g = pd.read_csv("gui_part_done.csv")
+g.set_index('Unnamed: 0',drop = True,inplace=True)
 j = pd.read_csv('joinas_part_done.csv')
 j.set_index('Unnamed: 0',drop = True,inplace=True)
 p = pd.read_csv('pipa_got.csv')
 p.drop('Unnamed: 0',inplace=True,axis = 1)
 p.set_index('Unnamed: 0.1', inplace=True, drop = True)
 l = pd.read_csv('liah_part_done.csv')
-l.set_index('Unnamed: 0',drop = True,inplace=True)
-
-
+l.set_index('id',drop = True,inplace=True)
 
 Results_labeled = pd.concat([j,l,p,g])
 our_characters
 
+
+
 def extract_characters(results):
-    characters = results['Speaker'].values
+    characters = []
+    for line in range(100,len(results)):
+        characters.append(results['Speaker'][line])
+        characters.append(results["Target"][line])
+        characters.append(results['In-sentence Characters'][line])
     
-    characters = characters + results['Target'].values
+    flat_list = [word for line in characters for word in line.split()]
+    #Drop virgulas
     
-    characters = characters + results['In-sentence Characters'].values
+    #Drop None
     
-    for character in characters:
-        multiple_characters = character.split(',')
+    #Ficar com Unique
+    return(flat_list)
         
+Results_Characters = extract_characters(Results_labeled)
+#Order by index
+samplev2.sort(key = lambda x: x[3])
+Results_labeled.sort_index(axis = 0, inplace=True)
+
+speaker_results = []
+target_results = []
+for sentence in samplev2:
+    #Remove ' from sentence
+    temp = list(sentence)
+    temp[0] = re.sub("'","",temp[0])
+    sentence = tuple(temp)
+    #Find speakers and targets
+    speaker_results.append(re.search("(?<=[\.?!\)\-\"] )([\w\s]+)(?= said to )",sentence[0]).group(0))
+    target_results.append(re.search("(?<=said to )([\w\s]+)(?=\.)",sentence[0]).group(0))
+
+speaker = pd.DataFrame(columns=["Real","Guessed"])
+speaker["Real"]= Results_labeled["Speaker"]
+speaker["Guessed"] = speaker_results    
+speaker_recall = recall_score(speaker["Real"], speaker["Guessed"], average=None)  
+   
+target = pd.DataFrame(columns=["Real","Guessed"])    
+target["Real"] = Results_labeled["Target"]
+target["Guessed"] = target_results
+target_recall = recall_score(target["Real"], target["Guessed"], average=None) 
     
