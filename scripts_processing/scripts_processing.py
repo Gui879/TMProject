@@ -58,9 +58,14 @@ improved_sentences = utils.rearrage_phrases(episode_script,characters_pattern, c
 np.save('scripts_processing/tagged_words_v0.npy',improved_sentences)
 improved_sentences= np.load('scripts_processing/tagged_words_v0.npy').item()
 
+epi = []
+for split in improved_sentences['s1ep1']:
+    epi.append(split[0])
+    
+joined_improved_sentences = [join_tokens(sentence) for sentence in epi]
 #Filter phrases of interest
 family_sentences = []
-for episode in improved_sentences.values():
+for episode in range(len(improved_sentences.values())):
     for sentence in episode:
         has_family = False
         if sentence[1] == 'Phrase':
@@ -70,23 +75,11 @@ for episode in improved_sentences.values():
                     has_family = True
                     break
         if has_family:
-            family_sentences.append(sentence[0])
+            epi = improved_sentences.keys()[episode]
+            family_sentences.append((sentence[0],epi))
 np.save('scripts_processing/family_sentences.npy',family_sentences)
-'''            
-#Tokenize and Label Phrases
-tagged_episodes = copy.deepcopy(improved_sentences)
-for key in tagged_episodes.keys():
-    episode = tagged_episodes[key]
-    for i in range(len(episode)):
-        tuple_s = episode[i]
-        sentence = tuple_s[0]
-        state = tuple_s[1]
-        episode[i]=(utils.ner_tagger(sentence),state)
+family_sentences = np.load('scripts_processing/family_sentences.npy')
 
-
-np.save('scripts_processing/tagged_words_v1.npy',tagged_episodes)
-tokenized_scripts= np.load('scripts_processing/tagged_words_v1.npy').item()
-'''
 ################################Liah's Code Here ###########################################################
 tagged_episodes_fixed=copy.deepcopy(family_sentences)
 
@@ -106,7 +99,7 @@ for sentence in range(len(tagged_episodes_fixed)):
             tagged_episodes_fixed[sentence][tuple_]=update_char_name(tagged_episodes_fixed,sentence,tuple_)
             tagged_episodes_fixed[sentence][tuple_]=update_char_name(tagged_episodes_fixed,sentence,tuple_)
             
-tagged_episodes_fixed= [utils.find_composed_characters(sentence,our_characters) for sentence in tagged_episodes_fixed]
+#tagged_episodes_fixed= [utils.find_composed_characters(sentence,our_characters) for sentence in tagged_episodes_fixed]
 
 np.save('scripts_processing/tagged_words_v2.npy',tagged_episodes_fixed)
 tagged_episodes= np.load('scripts_processing/tagged_words_v2.npy')

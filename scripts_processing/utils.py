@@ -190,6 +190,52 @@ def characters_name_correction(episode_script):
 
     return our_characters ,corrections
 
+def get_accuracy(relations):
+
+
+    relations = relations.apply(lambda x: x.str.lower(), axis=1)
+    relations.drop_duplicates(['char1','char2','type'],inplace=True)
+
+    relations['char1'] = [corrections[character] if character in corrections.keys() else character for character in relations['char1']]
+    relations['char2'] = [corrections[character] if character in corrections.keys() else character for character in relations['char2']]
+
+    #parents
+    relations.loc[(relations['type']=='father') ,'type']='father_of'
+    relations.loc[(relations['type']=='mother') | (relations['type']=='mom'),'type']='mother_of'
+
+    #childrens
+    relations.loc[(relations['type']=='son') ,'type']='son_of'
+    relations.loc[(relations['type']=='daughter'),'type']='daughter_of'
+    relations.loc[(relations['type']=='children') ,'type']='children_of'
+
+    #married
+    relations.loc[(relations['type']=='wife') ,'type']='wife_of'
+    relations.loc[(relations['type']=='husband'),'type']='husband_of'
+
+    #grandparents
+    relations.loc[(relations['type']=='grandmother') ,'type']='grandmother_of'
+    relations.loc[(relations['type']=='grandfather') ,'type']='grandfather_of'
+
+    #cousins
+    relations.loc[relations['type']=='cousin','type']='cousin_of'
+
+    #uncles
+    relations.loc[(relations['type']=='aunt') ,'type']='aunt_of'
+    relations.loc[(relations['type']=='uncle'),'type']='uncle_of'
+
+    #relations.loc[relations['type']=='niece', ['char1','char2']] = relations.loc[relations['type']=='niece', ['char2','char1']].values
+    #relations.loc[relations['type']=='nephew', ['char1','char2']] = relations.loc[relations['type']=='nephew', ['char2','char1']].values
+    #relations.loc[(relations['type']=='niece') | (relations['type']=='nephew'),'type']='uncleof'
+    relations.loc[(relations['type']=='brother'),'type']='brother_of'
+    relations.loc[(relations['type']=='sister') ,'type']='sister_of'
+    #relations = relations[relations['type'].isin(['parentof','siblings'])]
+
+
+    target_relations = pd.read_csv('model/relationships.csv', names=['char1','char2','type'], skiprows=1)
+    common = pd.merge(relations, target_relations, on=['char1','char2','type'],how = 'left', indicator=True)
+    
+    print('Accuracy >>> ', str(round(common[common['_merge']=='both'].drop_duplicates(['char1','char2','type']).shape[0]/relations.shape[0], 2)))
+
 #### Code to rearrange the phrases (source and target)
 def rearrage_phrases(episode_script, characters_pattern, corrections):
         #creating a deep copy from the source scripts
@@ -262,3 +308,4 @@ def rearrage_phrases(episode_script, characters_pattern, corrections):
                                 tagged_episodes[episode][sentence] = (ner_tagger(new_sentence),type)
                                 
         return tagged_episodes
+

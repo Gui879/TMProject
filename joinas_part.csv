@@ -1,0 +1,51 @@
+,Sentence,Phrase,Episode,Target,Speaker,Vocative Relation,Other Relation,In-sentence Characters
+0,DAVOS: Have you ever tried?,Phrase,s6ep2,None,None,None,None,None
+1,CERSEI: Cousin Lancel. I hardly recognized you.,Phrase,s5ep1,None,None,None,None,None
+2,"TYRION:Of course they do.If I was your hand I would have advised against it.General rule of thumb, Stark men don't fare well when they travel south.",Phrase,s7ep3,None,None,None,None,None
+3,TYWIN: What's this?,Phrase,s2ep4,None,None,None,None,None
+4,GUYMON: What's she got boiling? Wait. Wait. Let me guess.,Phrase,s4ep3,None,None,None,None,None
+5,JAIME: Are you really mad enough to blame him for that? He didn't decide to kill her. He was an infant.,Phrase,s4ep10,None,None,None,None,None
+6,JON:I wanted you to see it before we start hacking it to bits.,Phrase,s7ep4,None,None,None,None,None
+7,SHIREEN: It's a new one today. Lots of tricky words. But I think you can manage.,Phrase,s4ep3,None,None,None,None,None
+8,"HIGH SEPTON: Justice! I ask that you protect our Faith by arresting these criminals and throwing them in the black cells. I ask that you execute their leader, this so-called High Sparrow. He's a threat to everything we hold sacred. If he goes unpunished -",Phrase,s5ep3,None,None,None,None,None
+9,"BALON: And when the storm passed, you cut out their tongues.",Phrase,s6ep2,None,None,None,None,None
+10,"TYRION: Alone, if I may.",Phrase,s3ep6,None,None,None,None,None
+11,LOCKE: What the fuck are you doing to my bear?,Phrase,s3ep7,None,None,None,None,None
+12,GATINS: Fuck you!,Phrase,s6ep8,None,None,None,None,None
+13,HEAD: Of course.,Phrase,s5ep9,None,None,None,None,None
+14,Septa Mordane: Nobody could ever hate you.,Phrase,s1ep4,None,None,None,None,None
+15,"TYRION: Sure, he’s a bit long in the tooth, a bit withered, been in the sun too long. We can all see that. But he is a veteran of 100 battles. They wrote songs about him!",Phrase,s5ep6,None,None,None,None,None
+16,"Viserys Targaryen: You would turn me into one of them, wouldn't you? Next you'll want to braid my hair.",Phrase,s1ep4,None,None,None,None,None
+17,JON: Stannis?,Phrase,s5ep10,None,None,None,None,None
+18,"BENJEN: One way or another, he will find his way to the world of men. When he does, you will be there waiting for him. And you will be ready.",Phrase,s6ep6,None,None,None,None,None
+19,"PODRICK: She's dyed her hair, but it's her. She's sitting with Petyr Baelish.",Phrase,s5ep2,None,None,None,None,None
+20,"ARYA: I know. Don’t be afraid. I used to be like you. I was sick. I was dying. But my father never gave up on me. He loved me. More than anything in the world, just like your father loves you. So he brought me here. My father prayed to the many faced god. And I drank the water from this fountain. It healed me.",Phrase,s5ep6,None,None,None,None,None
+21,STANNIS: “The dance of dragons”? Why is that a dance?,Phrase,s5ep9,None,None,None,None,None
+22,JAIME: What did you say?,Phrase,s4ep10,None,None,None,None,None
+23,"Tyrion Lannister: Spare me your false courtesies, Lord Stark. There's a brothel outside your walls. There I'll find a bed and both of us can sleep easier.",Phrase,s1ep4,None,None,None,None,None
+24,DAVOS: Draw! Hold.,Phrase,s2ep9,None,None,None,None,None
+25,"Jory Cassel: Right away, my Lord. Lord Baelish is here for you.",Phrase,s1ep5,None,None,None,None,None
+26,TYWIN: Can you read?,Phrase,s2ep6,None,None,None,None,None
+27,VIOLET:I have an idea.,Phrase,s3ep7,None,None,None,None,None
+28,TORMUND: You saw these demons?,Phrase,s6ep9,None,None,None,None,None
+29,MARGAERY: ...and live his life as a penitent.,Phrase,s6ep7,None,None,None,None,None
+30,"RAMSAY: The kennelmaster’s daughter. She smelled of dog. I wasn’t much older, but everybody was already afraid of me. You certainly were.",Phrase,s6ep1,None,None,None,None,None
+31,BAELISH: Name me Warden of the North.,Phrase,s5ep6,None,None,None,None,None
+32,"MAN: So unless it got stuck in your arse on its way to your cunt, it stands to reason that it's gone. Whoa. What's your business here?",Phrase,s2ep10,None,None,None,None,None
+33,DICKON:Dickon.,Phrase,s7ep2,None,None,None,None,None
+34,DICKON:I didn't expect it to smell like that.,Phrase,s7ep4,None,None,None,None,None
+35,"SPARROW: Good. But these are terrible charges. And the realm must know the truth of them. If Your Grace has given honest testimony, your trial will prove your innocence.",Phrase,s5ep10,None,None,None,None,None
+36,"RANDYLL: It’s called Heartsbane. It’s been in our family for 500 years. It’s Valyrian steel. Only a handful of them left in the world. It’s supposed to go to my firstborn son after I die. To him. He will never wield that sword. If he were to become Lord Tarly of Horn Hill, it would be the end of this house. I took you for a Mole’s Town whore when I saw you and I made my peace with that. Who else would have him? But I overestimated him. No. It was a wildling whore that seduced my son. This you getting back at me, boy? Hmm? Bring that to my table and making me dine with it. And you got what you were after, didn’t you? A bastard. A half-breed bastard. Your invitation into our home.",Phrase,s6ep6,None,None,None,None,None
+37,JON: Castle Black could be next.,Phrase,s4ep4,None,None,None,None,None
+38,"JAIME: They're not good at anything. I know the Ironborn. They're bitter, angry little people. All they know how to do is steal things they can't build or grow themselves.",Phrase,s7ep1,None,None,None,None,None
+39,"SER DONTOS: I can't accept your apology. I may be a fool, but I'm a living fool, thanks to you.",Phrase,s4ep1,None,None,None,None,None
+40,TOMMEN: It all happened so fast.,Phrase,s5ep3,None,None,None,None,None
+41,"STANNIS: You admire him, don’t you?",Phrase,s5ep1,None,None,None,None,None
+42,"TYRION: It’s not enough for Meereen to have peace. They need to know Daenerys is responsible for it. The Sons of the Harpy have a good story. Resist the foreign invaders. Our queen has an even better story. Mother of Dragons, Breaker of Chains and...all that.",Phrase,s6ep5,None,None,None,None,None
+43,HEAD: Of course. Of course.,Phrase,s5ep9,None,None,None,None,None
+44,"Tywin Lannister:When soldiers lack discipline, the fault lies with their commander.",Phrase,s1ep9,None,None,None,None,None
+45,HODOR: Hodor. Hodor.,Phrase,s6ep5,None,None,None,None,None
+46,LITTLEFINGER: Tell no one what?,Phrase,s2ep3,None,None,None,None,None
+47,DAVOS: Help me get him inside.,Phrase,s6ep1,None,None,None,None,None
+48,"BRONN: You don’t even have to do anything, do you?",Phrase,s6ep10,None,None,None,None,None
+49,UNSULLIED #1: (shouts in Valyrian.),Phrase,s4ep4,None,None,None,None,None

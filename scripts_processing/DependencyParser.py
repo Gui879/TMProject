@@ -20,3 +20,5 @@ def get_relations(sentences):
         for relation in sentence['openie']: 
             df.append([sentences,relation['subject'], relation['relation'], relation['object']])
     return pd.DataFrame(df),output['sentences']
+
+test = "Who is the sister of Jon Snow's Grandfather?"

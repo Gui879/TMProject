@@ -1,0 +1,51 @@
+,Sentence,Phrase,Episode,Target,Speaker,Vocative Relation,Other Relation,In-sentence Characters
+50,CATELYN: He’d have to leave home. He’d have to leave me. And so would you.,Phrase,s1ep1,None,None,None,None,None
+51,BRIENNE: My father.,Phrase,s4ep10,None,None,None,None,None
+52,"SELYSE: Lord, cast your light upon me. Protect me in the darkness. Burn away my sins. Help me serve you. Use me as you will. For the night is dark and full of terrors.",Phrase,s3ep5,None,None,None,None,None
+53,Hot Pie:l knocked him down and l kicked him in the balls and l kept kicking him until he was dead. l kicked him all to pieces. You better give me that sword!,Phrase,s1ep10,None,None,None,None,None
+54,JORAH: What do you know about my father?,Phrase,s5ep6,None,None,None,None,None
+55,Daenerys Targaryen:You knew what l was buying and you knew the price.,Phrase,s1ep10,None,None,None,None,None
+56,GILLY: My father hated that word.,Phrase,s4ep3,None,None,None,None,None
+57,"JON: Come on, Ghost.",Phrase,s4ep7,None,None,None,None,None
+58,CAMELLO: I’m starting to think you can’t be trusted.,Phrase,s6ep5,None,None,None,None,None
+59,VARYS: You already drank yourself across the Narrow Sea.,Phrase,s5ep1,None,None,None,None,None
+60,OLENNA: What is it you want? Gold? I’ll make you the richest septon who ever lived.,Phrase,s5ep7,None,None,None,None,None
+61,BRONN: To do what?,Phrase,s2ep5,None,None,None,None,None
+62,"RAZDAL (to DAENERYS): Once before, I offered you peace. If you had not been so arrogant, you could have returned to your homeland with a fleet of ships. Instead, you will flee Slaver’s Bay on foot like the beggar queen you are.",Phrase,s6ep9,None,None,None,None,None
+63,DAVOS: We should all get some sleep.,Phrase,s6ep9,None,None,None,None,None
+64,"JAIME: It would be, if you honestly believed my father would never find out about it.",Phrase,s3ep6,None,None,None,None,None
+65,Eddard Stark: Go on. We'll talk more later.,Phrase,s1ep5,None,None,None,None,None
+66,JON:But?,Phrase,s7ep2,None,None,None,None,None
+67,QHORIN: Our boy here's already killed one dead man. He can do it again if he has to. What waits beyond the pass?,Phrase,s2ep6,None,None,None,None,None
+68,DAENERYS: Yes. That's all.,Phrase,s7ep7,None,None,None,None,None
+69,CERSEI: The Tyrells were plotting to undermine our family. I did what I did to protect our family.,Phrase,s3ep6,None,None,None,None,None
+70,"ARYA: Stupider. Night's Watch doesn't take girls, everyone knows that.",Phrase,s2ep2,None,None,None,None,None
+71,SLAVER: What about the dwarf?,Phrase,s5ep6,None,None,None,None,None
+72,THEON: Our Uncle Euron returned home after a long absence. He murdered our father and took the Salt Throne from yara. He would have murdered us if we had stayed.,Phrase,s6ep9,None,None,None,None,None
+73,DAENERYS: Lord Tyrion tells me your father was a terrible king.,Phrase,s6ep9,None,None,None,None,None
+74,MISSANDEI: It is done.,Phrase,s3ep4,None,None,None,None,None
+75,Daenerys Targaryen:(in Dothraki) Bring her to me unharmed or Khal Drogo will hear why you denied me.,Phrase,s1ep9,None,None,None,None,None
+76,TYRION: Shae.,Phrase,s4ep10,None,None,None,None,None
+77,"Grenn:""l am the sword in the darkness – """,Phrase,s1ep10,None,None,None,None,None
+78,ARYA: Don't! Don't kill him.,Phrase,s3ep9,None,None,None,None,None
+79,BRAN: Don't have any pain.,Phrase,s2ep1,None,None,None,None,None
+80,ANNOUNCER: Ser Dontos the Red of House Hollard.,Phrase,s2ep1,None,None,None,None,None
+81,VARYS: People I trust.,Phrase,s4ep6,None,None,None,None,None
+82,"Jaime Lannister: My dear brother, there are times you make me wonder whose side you're on.",Phrase,s1ep2,None,None,None,None,None
+83,JOJEN:Or things that happened long before you were born or things that are happening right now thousands of miles away.,Phrase,s3ep2,None,None,None,None,None
+84,GILLY: I don't want your stupid thimble. I want to save my baby's life. Can you do that? Can you?,Phrase,s3ep4,None,None,None,None,None
+85,"SANSA: Lord Tyrion was kind, he was gentle, he never touched me.",Phrase,s5ep6,None,None,None,None,None
+86,"HIGH SPARROW: You learn quickly. There are some who know every verse of the sacred text, but don’t have a drop of the Mother’s mercy in their blood and savages who can’t read at all who understand the Father’s wisdom.",Phrase,s6ep7,None,None,None,None,None
+87,MISSANDEI: (speaks Valyrian),Phrase,s3ep4,None,None,None,None,None
+88,Loras Tyrell: But a lot more than you.,Phrase,s1ep5,None,None,None,None,None
+89,SANSA: I just do.,Phrase,s4ep4,None,None,None,None,None
+90,"GILLY: Yes, of course.",Phrase,s6ep6,None,None,None,None,None
+91,LOCKE: You sure he's the one?,Phrase,s3ep2,None,None,None,None,None
+92,VARYS: 10 silver stags seems a generous bounty.,Phrase,s4ep6,None,None,None,None,None
+93,"OLENNA:He's a clever man, your Hand.I've known a great many clever men.I've outlived them all.Do you know why?I ignored them.The lords of Westeros are sheep.Are you a sheep?No.You're a dragon.Be a dragon.",Phrase,s7ep2,None,None,None,None,None
+94,HIGH SPARROW: Because I gave them away to someone who needed them more. We all do that. It stops us from forgetting what we really are.,Phrase,s5ep3,None,None,None,None,None
+95,RICKON: What’s That?,Phrase,s3ep9,None,None,None,None,None
+96,YGRITTE: Hmm.,Phrase,s3ep5,None,None,None,None,None
+97,YGRITTE: You ought to burn them you killed.,Phrase,s2ep6,None,None,None,None,None
+98,"GILLY: ""Legends of the Long Night.""",Phrase,s7ep1,None,None,None,None,None
+99,DORAN: I always envied Oberyn. He lived. He truly lived. Sailed around the world. Fought men from every country. Lay with the most beautiful women alive.,Phrase,s6ep1,None,None,None,None,None
