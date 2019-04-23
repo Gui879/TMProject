@@ -139,15 +139,16 @@ def extract_characters(results):
         characters.append(results["Target"][line])
         characters.append(results['In-sentence Characters'][line])
     
-    flat_list = [word for line in characters for word in line.split()]
-    #Drop virgulas
-    
-    #Drop None
-    
+    flat_list = [word.strip() for line in characters for word in line.split(",")]
+    #Drop virgulas e Drop None
+    flat_list = [re.sub(",","",x) for x in flat_list if x!='None']
     #Ficar com Unique
+    flat_list = list(set(flat_list))
     return(flat_list)
         
 Results_Characters = extract_characters(Results_labeled)
+
+
 #Order by index
 samplev2.sort(key = lambda x: x[3])
 Results_labeled.sort_index(axis = 0, inplace=True)
